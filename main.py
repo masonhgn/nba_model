@@ -90,12 +90,12 @@ def collect_boxscores(game_ids, output_file):
     all_games_data = {}
     print(len(game_ids))
     for i, game_id in enumerate(game_ids):
-        print('getting '+ game_id+ ' (',str(round(float((i+1)/len(game_ids)),5))+'%)')
-        #game_data = boxscore(game_id)
-        # all_games_data[game_id] = game_data
+        print('getting '+ game_id+ ' (',str(round(float((i+1)/len(game_ids)*100),5))+'%)')
+        game_data = boxscore(game_id)
+        all_games_data[game_id] = game_data
         
-        # with open(output_file, 'w') as f:
-        #     json.dump(all_games_data, f, indent=4)
+        with open(output_file, 'w') as f:
+            json.dump(all_games_data, f, indent=4)
         
         
         nba_cooldown = random.gammavariate(alpha=9, beta=0.4)
@@ -107,9 +107,9 @@ def collect_boxscores(game_ids, output_file):
 
 
 if __name__ == "__main__":
-    ids = load_game_ids_from_file()
+    ids = load_game_ids_from_file('game_ids1.txt')
     teams = all_team_ids()
-    collect_boxscores(ids,'boxscores.json')
+    collect_boxscores(ids,'boxscores1.json')
 
 # records, scores = {team:[] for team in teams}, {team:[] for team in teams}
 # rebounds, turnovers = {team:[] for team in teams}, {team:[] for team in teams}
