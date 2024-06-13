@@ -1,0 +1,244 @@
+{
+    "AvailableVideo": [
+        {
+            "GAME_ID": "0022200752",
+            "HISTORICAL_STATUS": 0,
+            "HUSTLE_STATUS": 1,
+            "PT_AVAILABLE": 1,
+            "PT_XYZ_AVAILABLE": 0,
+            "VIDEO_AVAILABLE_FLAG": 1,
+            "WH_STATUS": 1
+        }
+    ],
+    "GameInfo": [
+        {
+            "ATTENDANCE": 19254,
+            "GAME_DATE": "SUNDAY, JANUARY 29, 2023",
+            "GAME_TIME": "2:16"
+        }
+    ],
+    "GameSummary": [
+        {
+            "GAMECODE": "20230129/MIACHA",
+            "GAME_DATE_EST": "2023-01-29T00:00:00",
+            "GAME_ID": "0022200752",
+            "GAME_SEQUENCE": 1,
+            "GAME_STATUS_ID": 3,
+            "GAME_STATUS_TEXT": "Final",
+            "HOME_TEAM_ID": 1610612766,
+            "LIVE_PC_TIME": "     ",
+            "LIVE_PERIOD": 4,
+            "LIVE_PERIOD_TIME_BCAST": "Q4       - ",
+            "NATL_TV_BROADCASTER_ABBREVIATION": null,
+            "SEASON": "2022",
+            "VISITOR_TEAM_ID": 1610612748,
+            "WH_STATUS": 1
+        }
+    ],
+    "InactivePlayers": [
+        {
+            "FIRST_NAME": "Nikola",
+            "JERSEY_NUM": "5   ",
+            "LAST_NAME": "Jovic",
+            "PLAYER_ID": 1631107,
+            "TEAM_ABBREVIATION": "MIA",
+            "TEAM_CITY": "Miami",
+            "TEAM_ID": 1610612748,
+            "TEAM_NAME": "Heat"
+        },
+        {
+            "FIRST_NAME": "Omer",
+            "JERSEY_NUM": "77  ",
+            "LAST_NAME": "Yurtseven",
+            "PLAYER_ID": 1630209,
+            "TEAM_ABBREVIATION": "MIA",
+            "TEAM_CITY": "Miami",
+            "TEAM_ID": 1610612748,
+            "TEAM_NAME": "Heat"
+        },
+        {
+            "FIRST_NAME": "Duncan",
+            "JERSEY_NUM": "55  ",
+            "LAST_NAME": "Robinson",
+            "PLAYER_ID": 1629130,
+            "TEAM_ABBREVIATION": "MIA",
+            "TEAM_CITY": "Miami",
+            "TEAM_ID": 1610612748,
+            "TEAM_NAME": "Heat"
+        },
+        {
+            "FIRST_NAME": "Jamal",
+            "JERSEY_NUM": "8   ",
+            "LAST_NAME": "Cain",
+            "PLAYER_ID": 1631288,
+            "TEAM_ABBREVIATION": "MIA",
+            "TEAM_CITY": "Miami",
+            "TEAM_ID": 1610612748,
+            "TEAM_NAME": "Heat"
+        },
+        {
+            "FIRST_NAME": "Theo",
+            "JERSEY_NUM": "9   ",
+            "LAST_NAME": "Maledon",
+            "PLAYER_ID": 1630177,
+            "TEAM_ABBREVIATION": "CHA",
+            "TEAM_CITY": "Charlotte",
+            "TEAM_ID": 1610612766,
+            "TEAM_NAME": "Hornets"
+        },
+        {
+            "FIRST_NAME": "Kelly",
+            "JERSEY_NUM": "12  ",
+            "LAST_NAME": "Oubre Jr.",
+            "PLAYER_ID": 1626162,
+            "TEAM_ABBREVIATION": "CHA",
+            "TEAM_CITY": "Charlotte",
+            "TEAM_ID": 1610612766,
+            "TEAM_NAME": "Hornets"
+        },
+        {
+            "FIRST_NAME": "Cody",
+            "JERSEY_NUM": "11  ",
+            "LAST_NAME": "Martin",
+            "PLAYER_ID": 1628998,
+            "TEAM_ABBREVIATION": "CHA",
+            "TEAM_CITY": "Charlotte",
+            "TEAM_ID": 1610612766,
+            "TEAM_NAME": "Hornets"
+        }
+    ],
+    "LastMeeting": [
+        {
+            "GAME_ID": "0022200752",
+            "LAST_GAME_DATE_EST": "2022-11-12T00:00:00",
+            "LAST_GAME_HOME_TEAM_ABBREVIATION": "CHA",
+            "LAST_GAME_HOME_TEAM_CITY": "Charlotte",
+            "LAST_GAME_HOME_TEAM_ID": 1610612766,
+            "LAST_GAME_HOME_TEAM_NAME": "Hornets",
+            "LAST_GAME_HOME_TEAM_POINTS": 115,
+            "LAST_GAME_ID": "0022200189",
+            "LAST_GAME_VISITOR_TEAM_CITY": "Miami",
+            "LAST_GAME_VISITOR_TEAM_CITY1": "MIA",
+            "LAST_GAME_VISITOR_TEAM_ID": 1610612748,
+            "LAST_GAME_VISITOR_TEAM_NAME": "Heat",
+            "LAST_GAME_VISITOR_TEAM_POINTS": 132
+        }
+    ],
+    "LineScore": [
+        {
+            "GAME_DATE_EST": "2023-01-29T00:00:00",
+            "GAME_ID": "0022200752",
+            "GAME_SEQUENCE": 1,
+            "PTS": 122,
+            "PTS_OT1": 0,
+            "PTS_OT10": 0,
+            "PTS_OT2": 0,
+            "PTS_OT3": 0,
+            "PTS_OT4": 0,
+            "PTS_OT5": 0,
+            "PTS_OT6": 0,
+            "PTS_OT7": 0,
+            "PTS_OT8": 0,
+            "PTS_OT9": 0,
+            "PTS_QTR1": 26,
+            "PTS_QTR2": 32,
+            "PTS_QTR3": 33,
+            "PTS_QTR4": 31,
+            "TEAM_ABBREVIATION": "CHA",
+            "TEAM_CITY_NAME": "Charlotte",
+            "TEAM_ID": 1610612766,
+            "TEAM_NICKNAME": "Hornets",
+            "TEAM_WINS_LOSSES": "15-36"
+        },
+        {
+            "GAME_DATE_EST": "2023-01-29T00:00:00",
+            "GAME_ID": "0022200752",
+            "GAME_SEQUENCE": 1,
+            "PTS": 117,
+            "PTS_OT1": 0,
+            "PTS_OT10": 0,
+            "PTS_OT2": 0,
+            "PTS_OT3": 0,
+            "PTS_OT4": 0,
+            "PTS_OT5": 0,
+            "PTS_OT6": 0,
+            "PTS_OT7": 0,
+            "PTS_OT8": 0,
+            "PTS_OT9": 0,
+            "PTS_QTR1": 28,
+            "PTS_QTR2": 34,
+            "PTS_QTR3": 24,
+            "PTS_QTR4": 31,
+            "TEAM_ABBREVIATION": "MIA",
+            "TEAM_CITY_NAME": "Miami",
+            "TEAM_ID": 1610612748,
+            "TEAM_NICKNAME": "Heat",
+            "TEAM_WINS_LOSSES": "28-23"
+        }
+    ],
+    "Officials": [
+        {
+            "FIRST_NAME": "Tom",
+            "JERSEY_NUM": "49  ",
+            "LAST_NAME": "Washington",
+            "OFFICIAL_ID": 1199
+        },
+        {
+            "FIRST_NAME": "Gediminas",
+            "JERSEY_NUM": "50  ",
+            "LAST_NAME": "Petraitis",
+            "OFFICIAL_ID": 204058
+        },
+        {
+            "FIRST_NAME": "Jenna",
+            "JERSEY_NUM": "84  ",
+            "LAST_NAME": "Schroeder",
+            "OFFICIAL_ID": 1628954
+        }
+    ],
+    "OtherStats": [
+        {
+            "LARGEST_LEAD": 12,
+            "LEAD_CHANGES": 14,
+            "LEAGUE_ID": "00",
+            "PTS_2ND_CHANCE": 11,
+            "PTS_FB": 25,
+            "PTS_OFF_TO": 25,
+            "PTS_PAINT": 58,
+            "TEAM_ABBREVIATION": "CHA",
+            "TEAM_CITY": "Charlotte",
+            "TEAM_ID": 1610612766,
+            "TEAM_REBOUNDS": 4,
+            "TEAM_TURNOVERS": 0,
+            "TIMES_TIED": 14,
+            "TOTAL_TURNOVERS": 19
+        },
+        {
+            "LARGEST_LEAD": 13,
+            "LEAD_CHANGES": 14,
+            "LEAGUE_ID": "00",
+            "PTS_2ND_CHANCE": 14,
+            "PTS_FB": 10,
+            "PTS_OFF_TO": 16,
+            "PTS_PAINT": 56,
+            "TEAM_ABBREVIATION": "MIA",
+            "TEAM_CITY": "Miami",
+            "TEAM_ID": 1610612748,
+            "TEAM_REBOUNDS": 10,
+            "TEAM_TURNOVERS": 1,
+            "TIMES_TIED": 14,
+            "TOTAL_TURNOVERS": 11
+        }
+    ],
+    "SeasonSeries": [
+        {
+            "GAME_DATE_EST": "2023-01-29T00:00:00",
+            "GAME_ID": "0022200752",
+            "HOME_TEAM_ID": 1610612766,
+            "HOME_TEAM_LOSSES": 2,
+            "HOME_TEAM_WINS": 2,
+            "SERIES_LEADER": "Tied",
+            "VISITOR_TEAM_ID": 1610612748
+        }
+    ]
+}

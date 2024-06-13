@@ -5,12 +5,14 @@ import time
 import requests
 import pandas as pd
 import random
+import uuid
+
 
 mavericks = '1610612742'
 
 
 # Retry Wrapper 
-def retry(func, retries=3):
+def retry(func, retries=4):
     def retry_wrapper(*args, **kwargs):
         attempts = 0
         while attempts < retries:
@@ -18,7 +20,7 @@ def retry(func, retries=3):
                 return func(*args, **kwargs)
             except requests.exceptions.RequestException as e:
                 print(e)
-                time.sleep(30)
+                time.sleep(600)
                 attempts += 1
 
     return retry_wrapper
@@ -31,6 +33,7 @@ def pretty_print(d):
 def int_to_season(season: str):
     return str(season) + "-" + str(season+1)[-2:] # Convert year to season format ie. 2020 -> 2020-21
 
+@retry
 def boxscore(game_id):
     """returns a boxscore of a specific game"""
     return json.loads(boxscoresummaryv2.BoxScoreSummaryV2(game_id = game_id).get_normalized_json())
@@ -88,7 +91,6 @@ def analyze_boxscore(boxscore: dict):
 
 def collect_boxscores(game_ids, output_file):
     all_games_data = {}
-    print(len(game_ids))
     for i, game_id in enumerate(game_ids):
         print('getting '+ game_id+ ' (',str(round(float((i+1)/len(game_ids)*100),5))+'%)')
         game_data = boxscore(game_id)
@@ -98,7 +100,7 @@ def collect_boxscores(game_ids, output_file):
             json.dump(all_games_data, f, indent=4)
         
         
-        nba_cooldown = random.gammavariate(alpha=9, beta=0.4)
+        nba_cooldown = random.gammavariate(alpha=11, beta=0.4)
         time.sleep(nba_cooldown)
 
 
@@ -107,38 +109,33 @@ def collect_boxscores(game_ids, output_file):
 
 
 if __name__ == "__main__":
-    ids = load_game_ids_from_file('game_ids1.txt')
-    teams = all_team_ids()
-    collect_boxscores(ids,'boxscores1.json')
-
-# records, scores = {team:[] for team in teams}, {team:[] for team in teams}
-# rebounds, turnovers = {team:[] for team in teams}, {team:[] for team in teams}
-# #print(fgp)
-
-# for i in range(len(ids)):
-#     #game = boxscore(ids[i])
-#     game = json.load(open('boxscore_1.json'))
-
-#     #get ids of both teams
-#     ht_id, at_id = game['GameSummary'][0]['HOME_TEAM_ID'], game['GameSummary'][0]['VISITOR_TEAM_ID']
-
-#     #this is the index of each team in the LineScore
-#     h, a = (0,1) if game['LineScore'][0]['TEAM_ID'] == ht_id else (1,0)
 
 
-#     #calculate and store scores for both teams
-#     ht_score, at_score = game['LineScore'][h]['PTS'], game['LineScore'][a]['PTS']
-#     scores[ht_id].append(ht_score)
-#     scores[at_id].append(at_score)
+    ids = load_game_ids_from_file('game_ids7.txt')
 
-#     #calculate and score win or loss for each team
-#     ht_win, at_win = int(ht_score > at_score), int(ht_score < at_score)
-#     records[ht_id].append(ht_win)
-#     records[at_id].append(at_win)
+    #ids4 = load_game_ids_from_file('game_ids5.txt')
+    #collect_boxscores(ids,'boxscores_'+str(uuid.uuid4())+'.json')
+    #pretty_print(boxscore('0021900464'))
 
-#     h_rb, a_rb = game['']
 
-#     break
+    w = json.load(open('box10.json'))
+    x = json.load(open('box8.json'))
+    y = json.load(open('box9.json'))
+    z = {**w, **x, **y}
+    
+
+    with open('games.json', 'w') as f:
+        json.dump(z, f, indent=4)
+    
+
+
+
+
+    #ids = load_game_ids_from_file('game_ids3.txt')
+    #teams = all_team_ids()
+    # games = json.load(open('boxscores1.json'))
+    # print(len(games))
+    # print(games.keys())
 
 
     # df_columns = [
@@ -167,11 +164,12 @@ if __name__ == "__main__":
 
     #     'W_H',
     # ]
+
     # df = pd.DataFrame(columns=df_columns)
     # df.loc[len(df.index)] = [
 
     # ] 
-    #print(game['LineScore'])
+    # print(game['LineScore'])
 
 
 

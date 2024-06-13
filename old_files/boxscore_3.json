@@ -1,0 +1,264 @@
+{
+    "AvailableVideo": [
+        {
+            "GAME_ID": "0021700947",
+            "HISTORICAL_STATUS": 0,
+            "HUSTLE_STATUS": 1,
+            "PT_AVAILABLE": 1,
+            "PT_XYZ_AVAILABLE": 0,
+            "VIDEO_AVAILABLE_FLAG": 1,
+            "WH_STATUS": 1
+        }
+    ],
+    "GameInfo": [
+        {
+            "ATTENDANCE": 15587,
+            "GAME_DATE": "SUNDAY, MARCH 4, 2018",
+            "GAME_TIME": "2:27"
+        }
+    ],
+    "GameSummary": [
+        {
+            "GAMECODE": "20180304/PHIMIL",
+            "GAME_DATE_EST": "2018-03-04T00:00:00",
+            "GAME_ID": "0021700947",
+            "GAME_SEQUENCE": 5,
+            "GAME_STATUS_ID": 3,
+            "GAME_STATUS_TEXT": "Final",
+            "HOME_TEAM_ID": 1610612749,
+            "LIVE_PC_TIME": "",
+            "LIVE_PERIOD": 4,
+            "LIVE_PERIOD_TIME_BCAST": "Q4  - ESPN",
+            "NATL_TV_BROADCASTER_ABBREVIATION": "ESPN",
+            "SEASON": "2017",
+            "VISITOR_TEAM_ID": 1610612755,
+            "WH_STATUS": 1
+        }
+    ],
+    "InactivePlayers": [
+        {
+            "FIRST_NAME": "Furkan",
+            "JERSEY_NUM": "30",
+            "LAST_NAME": "Korkmaz",
+            "PLAYER_ID": 1627788,
+            "TEAM_ABBREVIATION": "PHI",
+            "TEAM_CITY": "Philadelphia",
+            "TEAM_ID": 1610612755,
+            "TEAM_NAME": "76ers"
+        },
+        {
+            "FIRST_NAME": "Demetrius",
+            "JERSEY_NUM": "11",
+            "LAST_NAME": "Jackson",
+            "PLAYER_ID": 1627743,
+            "TEAM_ABBREVIATION": "PHI",
+            "TEAM_CITY": "Philadelphia",
+            "TEAM_ID": 1610612755,
+            "TEAM_NAME": "76ers"
+        },
+        {
+            "FIRST_NAME": "James",
+            "JERSEY_NUM": "8",
+            "LAST_NAME": "Young",
+            "PLAYER_ID": 203923,
+            "TEAM_ABBREVIATION": "PHI",
+            "TEAM_CITY": "Philadelphia",
+            "TEAM_ID": 1610612755,
+            "TEAM_NAME": "76ers"
+        },
+        {
+            "FIRST_NAME": "Justin",
+            "JERSEY_NUM": "1",
+            "LAST_NAME": "Anderson",
+            "PLAYER_ID": 1626147,
+            "TEAM_ABBREVIATION": "PHI",
+            "TEAM_CITY": "Philadelphia",
+            "TEAM_ID": 1610612755,
+            "TEAM_NAME": "76ers"
+        },
+        {
+            "FIRST_NAME": "Markelle",
+            "JERSEY_NUM": "20",
+            "LAST_NAME": "Fultz",
+            "PLAYER_ID": 1628365,
+            "TEAM_ABBREVIATION": "PHI",
+            "TEAM_CITY": "Philadelphia",
+            "TEAM_ID": 1610612755,
+            "TEAM_NAME": "76ers"
+        },
+        {
+            "FIRST_NAME": "Mirza",
+            "JERSEY_NUM": "35",
+            "LAST_NAME": "Teletovic",
+            "PLAYER_ID": 203141,
+            "TEAM_ABBREVIATION": "MIL",
+            "TEAM_CITY": "Milwaukee",
+            "TEAM_ID": 1610612749,
+            "TEAM_NAME": "Bucks"
+        },
+        {
+            "FIRST_NAME": "Marshall",
+            "JERSEY_NUM": "40",
+            "LAST_NAME": "Plumlee",
+            "PLAYER_ID": 1627850,
+            "TEAM_ABBREVIATION": "MIL",
+            "TEAM_CITY": "Milwaukee",
+            "TEAM_ID": 1610612749,
+            "TEAM_NAME": "Bucks"
+        },
+        {
+            "FIRST_NAME": "Malcolm",
+            "JERSEY_NUM": "13",
+            "LAST_NAME": "Brogdon",
+            "PLAYER_ID": 1627763,
+            "TEAM_ABBREVIATION": "MIL",
+            "TEAM_CITY": "Milwaukee",
+            "TEAM_ID": 1610612749,
+            "TEAM_NAME": "Bucks"
+        },
+        {
+            "FIRST_NAME": "Matthew",
+            "JERSEY_NUM": "8",
+            "LAST_NAME": "Dellavedova",
+            "PLAYER_ID": 203521,
+            "TEAM_ABBREVIATION": "MIL",
+            "TEAM_CITY": "Milwaukee",
+            "TEAM_ID": 1610612749,
+            "TEAM_NAME": "Bucks"
+        }
+    ],
+    "LastMeeting": [
+        {
+            "GAME_ID": "0021700947",
+            "LAST_GAME_DATE_EST": "2018-01-29T00:00:00",
+            "LAST_GAME_HOME_TEAM_ABBREVIATION": "MIL",
+            "LAST_GAME_HOME_TEAM_CITY": "Milwaukee",
+            "LAST_GAME_HOME_TEAM_ID": 1610612749,
+            "LAST_GAME_HOME_TEAM_NAME": "Bucks",
+            "LAST_GAME_HOME_TEAM_POINTS": 107,
+            "LAST_GAME_ID": "0021700741",
+            "LAST_GAME_VISITOR_TEAM_CITY": "Philadelphia",
+            "LAST_GAME_VISITOR_TEAM_CITY1": "PHI",
+            "LAST_GAME_VISITOR_TEAM_ID": 1610612755,
+            "LAST_GAME_VISITOR_TEAM_NAME": "76ers",
+            "LAST_GAME_VISITOR_TEAM_POINTS": 95
+        }
+    ],
+    "LineScore": [
+        {
+            "GAME_DATE_EST": "2018-03-04T00:00:00",
+            "GAME_ID": "0021700947",
+            "GAME_SEQUENCE": 5,
+            "PTS": 110,
+            "PTS_OT1": 0,
+            "PTS_OT10": 0,
+            "PTS_OT2": 0,
+            "PTS_OT3": 0,
+            "PTS_OT4": 0,
+            "PTS_OT5": 0,
+            "PTS_OT6": 0,
+            "PTS_OT7": 0,
+            "PTS_OT8": 0,
+            "PTS_OT9": 0,
+            "PTS_QTR1": 43,
+            "PTS_QTR2": 29,
+            "PTS_QTR3": 14,
+            "PTS_QTR4": 24,
+            "TEAM_ABBREVIATION": "PHI",
+            "TEAM_CITY_NAME": "Philadelphia",
+            "TEAM_ID": 1610612755,
+            "TEAM_NICKNAME": "76ers",
+            "TEAM_WINS_LOSSES": "34-28"
+        },
+        {
+            "GAME_DATE_EST": "2018-03-04T00:00:00",
+            "GAME_ID": "0021700947",
+            "GAME_SEQUENCE": 5,
+            "PTS": 118,
+            "PTS_OT1": 0,
+            "PTS_OT10": 0,
+            "PTS_OT2": 0,
+            "PTS_OT3": 0,
+            "PTS_OT4": 0,
+            "PTS_OT5": 0,
+            "PTS_OT6": 0,
+            "PTS_OT7": 0,
+            "PTS_OT8": 0,
+            "PTS_OT9": 0,
+            "PTS_QTR1": 31,
+            "PTS_QTR2": 29,
+            "PTS_QTR3": 33,
+            "PTS_QTR4": 25,
+            "TEAM_ABBREVIATION": "MIL",
+            "TEAM_CITY_NAME": "Milwaukee",
+            "TEAM_ID": 1610612749,
+            "TEAM_NICKNAME": "Bucks",
+            "TEAM_WINS_LOSSES": "34-29"
+        }
+    ],
+    "Officials": [
+        {
+            "FIRST_NAME": "Scott",
+            "JERSEY_NUM": "48",
+            "LAST_NAME": "Foster",
+            "OFFICIAL_ID": 1162
+        },
+        {
+            "FIRST_NAME": "Aaron",
+            "JERSEY_NUM": "51",
+            "LAST_NAME": "Smith",
+            "OFFICIAL_ID": 1626302
+        },
+        {
+            "FIRST_NAME": "Courtney",
+            "JERSEY_NUM": "61",
+            "LAST_NAME": "Kirkland",
+            "OFFICIAL_ID": 2004
+        }
+    ],
+    "OtherStats": [
+        {
+            "LARGEST_LEAD": 20,
+            "LEAD_CHANGES": 1,
+            "LEAGUE_ID": "00",
+            "PTS_2ND_CHANCE": 9,
+            "PTS_FB": 21,
+            "PTS_OFF_TO": 36,
+            "PTS_PAINT": 44,
+            "TEAM_ABBREVIATION": "PHI",
+            "TEAM_CITY": "Philadelphia",
+            "TEAM_ID": 1610612755,
+            "TEAM_REBOUNDS": 9,
+            "TEAM_TURNOVERS": 0,
+            "TIMES_TIED": 1,
+            "TOTAL_TURNOVERS": 26
+        },
+        {
+            "LARGEST_LEAD": 14,
+            "LEAD_CHANGES": 1,
+            "LEAGUE_ID": "00",
+            "PTS_2ND_CHANCE": 13,
+            "PTS_FB": 28,
+            "PTS_OFF_TO": 11,
+            "PTS_PAINT": 52,
+            "TEAM_ABBREVIATION": "MIL",
+            "TEAM_CITY": "Milwaukee",
+            "TEAM_ID": 1610612749,
+            "TEAM_REBOUNDS": 12,
+            "TEAM_TURNOVERS": 2,
+            "TIMES_TIED": 1,
+            "TOTAL_TURNOVERS": 15
+        }
+    ],
+    "SeasonSeries": [
+        {
+            "GAME_DATE_EST": "2018-03-04T00:00:00",
+            "GAME_ID": "0021700947",
+            "HOME_TEAM_ID": 1610612749,
+            "HOME_TEAM_LOSSES": 2,
+            "HOME_TEAM_WINS": 2,
+            "SERIES_LEADER": "Tied",
+            "VISITOR_TEAM_ID": 1610612755
+        }
+    ]
+}
